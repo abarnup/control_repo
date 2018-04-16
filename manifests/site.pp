@@ -5,13 +5,13 @@ node default {
       owner => root,
    }
    
-   user { 'ashwini':
+   user { 'tommy':
        ensure => present
     }
     
     file {'/root/anupfile':
       ensure => file,
-      content => 'Ashwini Anup Rhea Neha ',
-      owner => ashwini,
+      content => 'sklfskdjsdkjsdjsfjdksjfsdfsdf ',
+      owner => root,
    }
 }
