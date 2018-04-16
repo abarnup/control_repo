@@ -5,4 +5,6 @@ node default {
       owner => root,
    }
    
+   user { 'ashwini':
+       ensure => present
 }
