@@ -7,4 +7,5 @@ node default {
    
    user { 'ashwini':
        ensure => present
+    }
 }
